@@ -19,7 +19,7 @@ function delimit(raw_text)
 		}		
 		else
 		{
-			page_text += "<p>"+ lines[i] + "</p><br/>"
+			page_text += "<p>"+ lines[i] + "<br/>"
 		}
 	}
 
