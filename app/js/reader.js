@@ -35,7 +35,7 @@ function arrange(raw_text)
 {
 	book_text = delimit(raw_text);
 	console.log(book_text)
-	document.getElementById("bored").innerHTML = book_text[0];
+	//document.getElementById("bored").innerHTML = book_text[0];
 }
 
 jQuery.get('https://logichulk.github.io/books/content/tales_of_quantania.html', 

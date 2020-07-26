@@ -91,9 +91,25 @@
     -->
     <link href="css/impress-demo.css" rel="stylesheet" />
     <link href="css/impress-common.css" rel="stylesheet" />
-    
+    <link href="css/reader.css" rel="stylesheet" />
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<style>
+.present_img {
+  display:none;
+}
+.fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+.fadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+</style>
 </head>
 
 <!--
@@ -186,12 +202,44 @@
         Plugins: For first slide, set the autoplay time to a custom 10 seconds.
         
     -->
-
-    <div id="start" class="step" data-x="2825" data-y="2325" data-z="-5000" data-rotate="90" data-scale="1">
-		Check
+<!--
+	<div id="presents" class="step" data-x="-10000" data-y="-1000" data-z="0" data-rotate="90" data-autoplay="20">
+		<img class="present_img" src="../content/img/black.png" style="width:100%" data-slide-duration="1"/>
+		<img class="present_img" src="../content/img/logo.png" style="width:100%" data-slide-duration="2"/>
+		<img class="present_img" src="../content/img/black.png" style="width:100%"data-slide-duration="1"/>
+		<img class="present_img" src="../content/img/presents.png" style="width:100%" data-slide-duration="2"/>
+		<img class="present_img" src="../content/img/black.png" style="width:100%" data-slide-duration="1"/>
+		<img class="present_img" src="../content/img/color.png" style="width:100%" data-slide-duration="3"/>
+		<img class="present_img" src="../content/img/metal.png" style="width:100%" data-slide-duration="1"/>
+		<img class="present_img" src="../content/img/metal2.png" style="width:100%" data-slide-duration="1"/>
+		<img class="present_img" src="../content/img/bubbles.png" style="width:100%" data-slide-duration="1"/>
+		<img class="present_img" src="../content/img/quantania.png" style="width:100%" data-slide-duration="1"/>
 	</div>
+-->
 
     <div id="bored" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="10">
+		<p>Once upon a time, there existed a mythical land.</p><br/> 
+
+		<p>Most mortals like us had not even heard about it. But legends said that bizarre, unheard of events were common here. Unimaginable, unthinkable feats happened on a matter of factly basis in this place where time and space were twisted...divinely or devilishly.</p><br/>
+
+		<p>Everything about this land was a puzzle. An unsolved mystery. For example, after reading this page, you might be thinking that the place existed somewhere in the past, like Atlantis or Dwarka. But in reality...it exists in the future. Similarly, you might think that you are the one observing <i>them</i> as the story unfolds...but in reality...they are observing you!</p><br/>
+
+		<p>This land was called...</p>
+	</div>
+
+	<div id="presents" class="step" data-x="-10000" data-y="-1000" data-z="0" data-rotate="270" data-autoplay="20">
+		<div class="slider">
+			<div class='slide1'></div>
+			<div class='slide2'></div>
+			<div class='slide3'></div>
+			<div class='slide4'></div>
+			<div class='slide5'></div>
+			<div class='slide6'></div>
+			<div class='slide7'></div>
+			<div class='slide8'></div>
+			<div class='slide9'></div>
+			<div class='slide10'></div>
+		</div>
 	</div>
 
     <!--
