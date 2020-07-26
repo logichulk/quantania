@@ -5,8 +5,9 @@ from datetime import datetime
 
 # Auto-commit script for content.
 
-ssh_client=paramiko.SSHClient()
-ssh_client.connect(hostname=’hostname’,username=’logichulk’,password=’F22rptr’)
+ssh_client = paramiko.SSHClient()
+ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh_client.connect(hostname='ssh://git@github.com:logichulk/books.git',username='logichulk',password='F22rptr')
 
 statements = list()
 
