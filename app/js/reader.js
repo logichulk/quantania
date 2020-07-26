@@ -38,7 +38,7 @@ function arrange(raw_text)
 	//document.getElementById("bored").innerHTML = book_text[0];
 }
 
-jQuery.get('https://logichulk.github.io/books/content/tales_of_quantania.html', 
+jQuery.get('https://logichulk.github.io/quantania/content/story.html', 
 	function(data) 
 	{
 	   arrange(data);
