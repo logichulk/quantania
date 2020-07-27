@@ -9,7 +9,7 @@ function actUpon(id)
 			"<div class='slide2'></div>" +
 			"<div class='slide3'></div>" +
 			"<div class='slide4'></div>" +
-			"<div class='slide5'></div>" +
+			"<div class='slide5'><img src='../../content/img/circle.png'/></div>" +
 			"<div class='slide6'></div>" +
 			"<div class='slide7'></div>" +
 			"<div class='slide8'></div>" +

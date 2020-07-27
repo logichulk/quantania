@@ -17,7 +17,7 @@
 -webkit-animation:black0 30s;
 } 
 .slide1 {
-  background: url(https://logichulk.github.io/quantania/content/img/black.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/logo-start.png)no-repeat center;
       background-size: cover;
     animation:fade1 30s;
 -webkit-animation:fade1 30s;
@@ -76,16 +76,16 @@
   5%  { opacity: 0}
   10% { opacity: 0}
   15% { opacity: 0}
-  20% { opacity: 1}
-  25% { opacity: 0}
+  20% { opacity: 0}
+  25% { opacity: 1}
   30% { opacity: 0}
-  35% { opacity: 1}
-  40% { opacity: 0}
+  35% { opacity: 0}
+  40% { opacity: 1}
   45% { opacity: 0}
-  50% { opacity: 1}
-  55% { opacity: 0}
+  50% { opacity: 0}
+  55% { opacity: 1}
   60% { opacity: 0}
-  65% { opacity: 1}
+  65% { opacity: 0}
   70% { opacity: 0}
   75% { opacity: 0}
   80% { opacity: 0}
@@ -98,7 +98,7 @@
 {
   0%  { opacity: 0}
   5%  { opacity: 1}
-  10% { opacity: 0}
+  10% { opacity: 1}
   15% { opacity: 0}
   20% { opacity: 0}
   25% { opacity: 0}
@@ -122,11 +122,11 @@
 {
   0%  { opacity: 0}
   5%  { opacity: 0}
-  10% { opacity: 1}
+  10% { opacity: 0}
   15% { opacity: 1}
-  20% { opacity: 0}
-  25% { opacity: 1}
-  30% { opacity: 1}
+  20% { opacity: 1}
+  25% { opacity: 0}
+  30% { opacity: 0}
   35% { opacity: 0}
   40% { opacity: 0}
   45% { opacity: 0}
@@ -150,10 +150,10 @@
   15% { opacity: 0}
   20% { opacity: 0}
   25% { opacity: 0}
-  30% { opacity: 0}
-  35% { opacity: 0}
-  40% { opacity: 1}
-  45% { opacity: 1}
+  30% { opacity: 1}
+  35% { opacity: 1}
+  40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
   55% { opacity: 0}
   60% { opacity: 0}
@@ -177,10 +177,10 @@
   30% { opacity: 0}
   35% { opacity: 0}
   40% { opacity: 0}
-  45% { opacity: 0}
-  50% { opacity: 0}
-  55% { opacity: 1}
-  60% { opacity: 1}
+  45% { opacity: 1}
+  50% { opacity: 1}
+  55% { opacity: 0}
+  60% { opacity: 0}
   65% { opacity: 0}
   70% { opacity: 0}
   75% { opacity: 0}
@@ -204,10 +204,10 @@
   45% { opacity: 0}
   50% { opacity: 0}
   55% { opacity: 0}
-  60% { opacity: 0}
-  65% { opacity: 0}
+  60% { opacity: 1}
+  65% { opacity: 1}
   70% { opacity: 1}
-  75% { opacity: 1}
+  75% { opacity: 0}
   80% { opacity: 0}
   85% { opacity: 0}
   90% { opacity: 0}
@@ -231,8 +231,8 @@
   60% { opacity: 0}
   65% { opacity: 0}
   70% { opacity: 0}
-  75% { opacity: 0}
-  80% { opacity: 1}
+  75% { opacity: 1}
+  80% { opacity: 0}
   85% { opacity: 0}
   90% { opacity: 0}
   95% { opacity: 0}
@@ -256,8 +256,8 @@
   65% { opacity: 0}
   70% { opacity: 0}
   75% { opacity: 0}
-  80% { opacity: 0}
-  85% { opacity: 1}
+  80% { opacity: 1}
+  85% { opacity: 0}
   90% { opacity: 0}
   95% { opacity: 0}
   100% { opacity: 0}
@@ -281,9 +281,9 @@
   70% { opacity: 0}
   75% { opacity: 0}
   80% { opacity: 0}
-  85% { opacity: 0}
+  85% { opacity: 1}
   90% { opacity: 1}
-  95% { opacity: 0}
+  95% { opacity: 1}
   100% { opacity: 0}
 }
 @keyframes fade9
@@ -307,6 +307,6 @@
   80% { opacity: 0}
   85% { opacity: 0}
   90% { opacity: 0}
-  95% { opacity: 1}
+  95% { opacity: 0}
   100% { opacity: 1}
 }
