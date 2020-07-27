@@ -1,207 +1,312 @@
-.presents {
-	background: white;
-
+.presenter {
+	background: black;
     width: 1280px;
     height: 720px;
 }
-.slide1,.slide2,.slide3,.slide4,.slide5 {
+.slide0,.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9 {
   position: absolute;
   width: 1280px;
   height: 720px;
   margin-top: -40px;
   margin-left: -40px;
 }
-.slide1 {
-  background: url(http://logichulk.github.io/quantania/content/img/black.png)no-repeat center;
+.slide0 {
+  background: url(https://logichulk.github.io/quantania/content/img/black.png)no-repeat center;
       background-size: cover;
-    animation:fade0 8s;
--webkit-animation:fade0 8s;
+    animation:black0 30s;
+-webkit-animation:black0 30s;
 } 
-.slide2 {
-  background: url(http://logichulk.github.io/quantania/content/img/logo.png)no-repeat center;
+.slide1 {
+  background: url(https://logichulk.github.io/quantania/content/img/black.png)no-repeat center;
       background-size: cover;
-    animation:fade1 8s;
--webkit-animation:fade1 8s;
+    animation:fade1 30s;
+-webkit-animation:fade1 30s;
+}
+.slide2 {
+  background: url(https://logichulk.github.io/quantania/content/img/logo.png)no-repeat center;
+      background-size: cover;
+    animation:fade2 30s;
+-webkit-animation:fade2 30s;
 }
 .slide3 {
-  background: url(http://logichulk.github.io/quantania/content/img/presents.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/presents.png)no-repeat center;
       background-size: cover;
-    animation:fade2 8s;
--webkit-animation:fade2 8s;
+    animation:fade3 30s;
+-webkit-animation:fade3 30s;
 }
 .slide4 {
-  background: url(http://logichulk.github.io/quantania/content/img/author.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/author.png)no-repeat center;
       background-size: cover;
-    animation:fade3 8s;
--webkit-animation:fade3 8s;
+    animation:fade4 30s;
+-webkit-animation:fade4 30s;
 }
 .slide5 {
-  background: url(http://logichulk.github.io/quantania/content/img/color.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/color.png)no-repeat center;
       background-size: cover;
-    animation:fade4 8s;
--webkit-animation:fade4 8s;
+    animation:fade5 30s;
+-webkit-animation:fade5 30s;
 }
 .slide6 {
-  background: url(http://logichulk.github.io/quantania/content/img/metal.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/metal.png)no-repeat center;
       background-size: cover;
-    animation:fade5 8s;
--webkit-animation:fade5 8s;
+    animation:fade6 30s;
+-webkit-animation:fade6 30s;
 }
 .slide7 {
-  background: url(http://logichulk.github.io/quantania/content/img/metal2.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/metal2.png)no-repeat center;
       background-size: cover;
-    animation:fade6 8s;
--webkit-animation:fade6 8s;
+    animation:fade7 30s;
+-webkit-animation:fade7 30s;
 }
 .slide8 {
-  background: url(http://logichulk.github.io/quantania/content/img/qubits.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/qubits.png)no-repeat center;
       background-size: cover;
-    animation:fade7 8s;
--webkit-animation:fade7 8s;
+    animation:fade8 30s;
+-webkit-animation:fade8 30s;
 }
 .slide9 {
-  background: url(http://logichulk.github.io/quantania/content/img/quantania.png)no-repeat center;
+  background: url(https://logichulk.github.io/quantania/content/img/quantania.png)no-repeat center;
       background-size: cover;
-    animation:fade8 8s;
--webkit-animation:fade8 8s;
+    animation:fade9 30s;
+-webkit-animation:fade9 30s;
 }
-@keyframes fade0
+@keyframes black0
 {
-  0%   {opacity:1}
+  0%  { opacity: 1}
+  5%  { opacity: 0}
   10% { opacity: 0}
-  20% { opacity: 0}
+  15% { opacity: 0}
+  20% { opacity: 1}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 1}
   40% { opacity: 0}
-  50% { opacity: 0}
+  45% { opacity: 0}
+  50% { opacity: 1}
+  55% { opacity: 0}
   60% { opacity: 0}
+  65% { opacity: 1}
   70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
+  85% { opacity: 0}
   90% { opacity: 0}
-  100% { opacity: 1}
+  95% { opacity: 0}
+  100% { opacity: 0}
 }
 @keyframes fade1
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 1}
+  15% { opacity: 1}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 0}
   40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
+  65% { opacity: 0}
   70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
+  85% { opacity: 0}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade2
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
-  20% { opacity: 1}
-  30% { opacity: 0}
+  15% { opacity: 0}
+  20% { opacity: 0}
+  25% { opacity: 1}
+  30% { opacity: 1}
+  35% { opacity: 0}
   40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
+  65% { opacity: 0}
   70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
+  85% { opacity: 0}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade3
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
-  30% { opacity: 1}
-  40% { opacity: 0}
+  25% { opacity: 0}
+  30% { opacity: 0}
+  35% { opacity: 0}
+  40% { opacity: 1}
+  45% { opacity: 1}
   50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
+  65% { opacity: 0}
   70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
+  85% { opacity: 0}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade4
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
-  40% { opacity: 1}
+  35% { opacity: 0}
+  40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
-  60% { opacity: 0}
+  55% { opacity: 1}
+  60% { opacity: 1}
+  65% { opacity: 0}
   70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
+  85% { opacity: 0}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade5
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 0}
   40% { opacity: 0}
-  50% { opacity: 1}
+  45% { opacity: 0}
+  50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
-  70% { opacity: 0}
+  65% { opacity: 0}
+  70% { opacity: 1}
+  75% { opacity: 1}
   80% { opacity: 0}
+  85% { opacity: 0}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade6
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 0}
   40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
-  60% { opacity: 1}
+  55% { opacity: 0}
+  60% { opacity: 0}
+  65% { opacity: 0}
   70% { opacity: 0}
-  80% { opacity: 0}
+  75% { opacity: 0}
+  80% { opacity: 1}
+  85% { opacity: 0}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade7
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 0}
   40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
-  70% { opacity: 1}
+  65% { opacity: 0}
+  70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
+  85% { opacity: 1}
   90% { opacity: 0}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade8
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 0}
   40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
+  65% { opacity: 0}
   70% { opacity: 0}
-  80% { opacity: 1}
-  90% { opacity: 0}
+  75% { opacity: 0}
+  80% { opacity: 0}
+  85% { opacity: 0}
+  90% { opacity: 1}
+  95% { opacity: 0}
   100% { opacity: 0}
 }
 @keyframes fade9
 {
-  0%   {opacity:0}
+  0%  { opacity: 0}
+  5%  { opacity: 0}
   10% { opacity: 0}
+  15% { opacity: 0}
   20% { opacity: 0}
+  25% { opacity: 0}
   30% { opacity: 0}
+  35% { opacity: 0}
   40% { opacity: 0}
+  45% { opacity: 0}
   50% { opacity: 0}
+  55% { opacity: 0}
   60% { opacity: 0}
+  65% { opacity: 0}
   70% { opacity: 0}
+  75% { opacity: 0}
   80% { opacity: 0}
-  90% { opacity: 1}
-  100% { opacity: 0}
+  85% { opacity: 0}
+  90% { opacity: 0}
+  95% { opacity: 1}
+  100% { opacity: 1}
 }

@@ -1,3 +1,27 @@
+function actUpon(id)
+{
+	console.log(id);
+	
+	if(id == "presenter")
+		document.getElementById("presenter").innerHTML = 
+			"<div class='slide0'></div>" +
+			"<div class='slide1'></div>" + 
+			"<div class='slide2'></div>" +
+			"<div class='slide3'></div>" +
+			"<div class='slide4'></div>" +
+			"<div class='slide5'></div>" +
+			"<div class='slide6'></div>" +
+			"<div class='slide7'></div>" +
+			"<div class='slide8'></div>" +
+			"<div class='slide9'></div>";
+}
+
+//document.addEventListener("impress:starttransition", function (event) {
+//    actUpon(event.detail.next.id); });
+
+document.addEventListener("impress:stepenter", function (event) {
+    actUpon(event.target.id); });
+
 function delimit(raw_text)
 {
 	page = 1;
